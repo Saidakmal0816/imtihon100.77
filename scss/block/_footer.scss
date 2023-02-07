@@ -1,0 +1,133 @@
+.footer{
+    background: #5B4A58;
+    padding-bottom: 100px;
+    position: relative;
+
+    .cardd{
+        background-color: #746471;
+        margin-bottom: 20px;
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #746471;
+            width: 100%;
+            max-width: 1170px;
+            padding: 10px 0;
+            margin: 0 auto;
+        }
+
+        &__item{
+
+            &__link{
+                color: white;
+                font-size: 20px;
+                transition: 0.3s;
+
+
+                &__left{
+                    transform: rotate(-92deg);
+                }
+
+                &:hover{
+                    color: rgba(255, 255, 255, 0.639);
+                }
+            }
+        }
+
+    }
+
+    .fur{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .boxx{
+
+        &__title{
+            color: #6AAE55;
+            padding: 10px 0;
+        }
+
+      
+
+        &__item{
+
+            padding: 10px 0;
+
+            &__links{
+                color: white;
+            }
+        }
+    }
+
+
+
+    .fot{
+        &__title{
+            color: #6AAE55;
+            padding: 10px 0; 
+        }
+
+
+        &__item{
+            padding: 10px 0; 
+
+            &__link{
+                color: white;
+            }
+        }
+    }
+
+    .inPut{
+
+        &__title{
+            color: #6AAE55;
+        }
+
+        &__card{
+            display: flex;
+            gap: 10px;
+            padding: 10px 0;
+
+
+            &__label1{
+                color: white;
+            }
+            &__label2{
+                color: white;
+            }
+
+            &__input1{
+                outline: none;
+                padding: 3px 30px 3px 4px;
+            }
+            &__input2{
+                outline: none;
+                padding: 3px 30px 3px 4px;
+            }
+
+        }
+
+        &__input3{
+            padding: 20px;
+            width: 88%;
+            outline: none;
+        }
+    }
+
+    .bottonCard{
+        width: 100%;
+        background-color: #746471;
+        bottom: 0;
+        position: absolute;
+        text-align: center;
+        padding: 10px;
+
+        &__link{
+            color: white;
+        }
+
+    }
+}
+

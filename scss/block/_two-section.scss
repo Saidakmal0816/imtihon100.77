@@ -1,0 +1,104 @@
+.two-section{
+background-color:rgba(185, 123, 184, 0.114);
+padding: 120px 0;
+
+    .two{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+
+        &__right{
+            &__title{
+                font-size: 23px;
+                color: #5B4A58;
+                padding: 6px 0;
+            }
+            &__text{
+
+                font-size: 19px;
+                padding: 6px 0;
+            }
+
+            &__box{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+
+                &__car{
+                    background-color:#FFFFFF;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+                    border-radius: 10px;
+
+                    &__card1{
+                        &__title1{
+                            color: #5B4A58;
+                        }
+
+                        &__title2{
+                            color: #5B4A58;
+                            padding: 4px 0;
+                        }
+                    }
+
+                    &__card2{
+                        padding: 5px;
+                        border-radius: 10pc;
+                        background-color: #6AAE55;;
+                    }
+                }
+            }
+
+
+           &__botton{
+            background-color: #FFFFFF;
+            margin-top: 50px;
+            padding: 10px 60px 80px 10px;
+            border-radius: 10px;
+            overflow: scroll;
+            height: 230px;
+            &__title1{
+                color: black;
+                transition: 0.3s;
+                border-bottom: 2px solid transparent;
+
+                &:hover{
+                    border-bottom: 2px solid #000;
+                }
+            }
+
+            &__title2{
+                color: rgba(0, 0, 0, 0.48);
+                transition: 0.3s;
+                border-bottom: 2px solid transparent;
+                &:hover{
+                    border-bottom: 2px solid #000;
+                }
+            }
+       
+            &__dis{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+            
+            }
+
+
+            &__item{
+                padding: 10px 0;
+                gap: 20px;
+                &__span{
+                    padding: 4px;
+                    border-radius: 10pc;
+                    background-color: #6AAE55;
+                    display: inline-block;
+                    margin: 0 10px;
+                }
+            }
+           } 
+        }
+    }
+}

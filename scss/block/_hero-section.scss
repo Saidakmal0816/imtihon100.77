@@ -1,0 +1,72 @@
+.hero-section{
+    background-color: #fff;
+    padding: 100px 0px 20px 0px;
+
+    .card{
+       
+
+        &__list{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__item{
+            &__link{
+                color: black;
+                font-size: 20px;
+                transition: 0.3s;
+                &:hover{
+                    color:
+                    #6AAE55;
+                }
+            }
+            &__link12{
+                color: black;
+                font-size: 20px;
+                transition: 0.3s;
+                &:hover{
+                    color:
+                    #6AAE55;
+                }
+                &__left{
+                    transform: rotate(-90deg);
+                }
+            }
+
+            &__link54{
+                color: black;
+                gap: 10px;
+                transition: 0.3s;
+                &:hover{
+                    color:
+                    #6AAE55;
+                }
+
+                &__user{
+                    padding: 6px 7px; 
+                    border-radius: 10pc;
+                    border: 1px solid #000;
+                }
+                
+            }
+
+            &__link65{
+                color: black;
+                transition: 0.3s;
+                &:hover{
+                    color:
+                    #6AAE55;
+                }
+            }
+            &__link66{
+                color: rgba(0, 0, 0, 0.497);
+                transition: 0.3s;
+                &:hover{
+                    color:
+                    #6AAE55;
+                }
+            }
+        }
+    }
+}
